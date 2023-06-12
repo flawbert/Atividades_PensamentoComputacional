@@ -11,7 +11,7 @@ if modo == 1:
             print("NÚMERO CORRETO!")
             break
         else:
-            print(f"Errou! O número correto era: {men}")
+            print("Errou")
 if modo == 2:
     for i in range(1):
         num = int(input("Escolha um número entre 1 e 31: "))
