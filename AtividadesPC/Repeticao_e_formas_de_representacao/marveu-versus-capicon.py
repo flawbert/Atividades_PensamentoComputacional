@@ -53,38 +53,38 @@ def eh_primo(num):
             return False
     return True
 
-# Exemplo de uso das funções
+
 numeros = []
 
 for i in range(10):
     num = int(input("Digite um número: "))
     numeros.append(num)
 
-# Desafio: Mínimo e máximo
+
 minimo = encontrar_minimo(numeros)
 maximo = encontrar_maximo(numeros)
 print("Mínimo:", minimo)
 print("Máximo:", maximo)
 
-# Desafio: Argumentos mínimo e máximo
+
 argumento_minimo = encontrar_argumento_minimo(numeros)
 argumento_maximo = encontrar_argumento_maximo(numeros)
 print("Argumento mínimo:", argumento_minimo)
 print("Argumento máximo:", argumento_maximo)
 
-# Desafio: Somatório e produtor
+
 somatorio = calcular_somatorio(numeros)
 produtor = calcular_produtor(numeros)
 print("Somatório:", somatorio)
 print("Produtor:", produtor)
 
-# Desafio: Média e mediana
+
 media = calcular_media(numeros)
 mediana = calcular_mediana(numeros)
 print("Média:", media)
 print("Mediana:", mediana)
 
-# Desafio: Todos e algum
+
 todos_primos = verificar_todos_primos(numeros)
 algum_primo = verificar_algum_primo(numeros)
 print("Todos os números são primos?", todos_primos)
